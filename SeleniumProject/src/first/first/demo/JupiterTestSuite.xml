@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="JupiterDemoTestCases">
+    <classes>
+      	<class name="first.first.demo.TestCase1"/>
+      	<class name="first.first.demo.TestCase2"/>
+	<class name="first.first.demo.TestCase3"/>
+	<class name="first.first.demo.TestCase4"/>
+
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

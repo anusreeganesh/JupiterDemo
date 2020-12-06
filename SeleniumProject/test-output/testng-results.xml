@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-06T04:25:32 GMT-06:00" name="Suite" finished-at="2020-12-06T04:26:30 GMT-06:00" duration-ms="58071">
+    <groups>
+    </groups>
+    <test started-at="2020-12-06T04:25:32 GMT-06:00" name="JupiterDemoTestCases" finished-at="2020-12-06T04:26:30 GMT-06:00" duration-ms="58071">
+      <class name="first.first.demo.TestCase1">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:first.first.demo.TestCase1@14d3bc22]" started-at="2020-12-06T04:25:32 GMT-06:00" name="testSetup" finished-at="2020-12-06T04:25:38 GMT-06:00" duration-ms="5737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:first.first.demo.TestCase1@14d3bc22]" started-at="2020-12-06T04:25:38 GMT-06:00" name="openBrowser" finished-at="2020-12-06T04:25:40 GMT-06:00" duration-ms="2159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="validateContactPage()[pri:0, instance:first.first.demo.TestCase1@14d3bc22]" started-at="2020-12-06T04:25:40 GMT-06:00" name="validateContactPage" description="This method validates the Homepage page to Contact Page - Test case 1:" finished-at="2020-12-06T04:25:41 GMT-06:00" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateContactPage -->
+        <test-method is-config="true" signature="postContactValidation()[pri:0, instance:first.first.demo.TestCase1@14d3bc22]" started-at="2020-12-06T04:25:41 GMT-06:00" name="postContactValidation" finished-at="2020-12-06T04:25:46 GMT-06:00" duration-ms="5031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postContactValidation -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:first.first.demo.TestCase1@14d3bc22]" started-at="2020-12-06T04:25:46 GMT-06:00" name="afterClass" finished-at="2020-12-06T04:25:47 GMT-06:00" duration-ms="627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- first.first.demo.TestCase1 -->
+      <class name="first.first.demo.TestCase2">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:first.first.demo.TestCase2@12d4bf7e]" started-at="2020-12-06T04:25:47 GMT-06:00" name="testSetup" finished-at="2020-12-06T04:25:52 GMT-06:00" duration-ms="5280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:first.first.demo.TestCase2@12d4bf7e]" started-at="2020-12-06T04:25:52 GMT-06:00" name="openBrowser" finished-at="2020-12-06T04:25:54 GMT-06:00" duration-ms="2075" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="submitValidData()[pri:0, instance:first.first.demo.TestCase2@12d4bf7e]" started-at="2020-12-06T04:25:54 GMT-06:00" name="submitValidData" description="This method validates successful submission with valid data - Test case 2:" finished-at="2020-12-06T04:25:58 GMT-06:00" duration-ms="4001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitValidData -->
+        <test-method is-config="true" signature="validateSucceessfulSubmissionMessage()[pri:0, instance:first.first.demo.TestCase2@12d4bf7e]" started-at="2020-12-06T04:25:58 GMT-06:00" name="validateSucceessfulSubmissionMessage" finished-at="2020-12-06T04:25:58 GMT-06:00" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSucceessfulSubmissionMessage -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:first.first.demo.TestCase2@12d4bf7e]" started-at="2020-12-06T04:25:58 GMT-06:00" name="afterClass" finished-at="2020-12-06T04:25:59 GMT-06:00" duration-ms="645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- first.first.demo.TestCase2 -->
+      <class name="first.first.demo.TestCase3">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:first.first.demo.TestCase3@4c1d9d4b]" started-at="2020-12-06T04:25:59 GMT-06:00" name="testSetup" finished-at="2020-12-06T04:26:04 GMT-06:00" duration-ms="5329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:first.first.demo.TestCase3@4c1d9d4b]" started-at="2020-12-06T04:26:04 GMT-06:00" name="openBrowser" finished-at="2020-12-06T04:26:06 GMT-06:00" duration-ms="2050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="submitInvalidData()[pri:0, instance:first.first.demo.TestCase3@4c1d9d4b]" started-at="2020-12-06T04:26:06 GMT-06:00" name="submitInvalidData" description="This method validates contact form error message with invalid data - Test case 3:" finished-at="2020-12-06T04:26:10 GMT-06:00" duration-ms="3814" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitInvalidData -->
+        <test-method is-config="true" signature="validateErrors()[pri:0, instance:first.first.demo.TestCase3@4c1d9d4b]" started-at="2020-12-06T04:26:10 GMT-06:00" name="validateErrors" finished-at="2020-12-06T04:26:10 GMT-06:00" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateErrors -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:first.first.demo.TestCase3@4c1d9d4b]" started-at="2020-12-06T04:26:10 GMT-06:00" name="afterClass" finished-at="2020-12-06T04:26:10 GMT-06:00" duration-ms="635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- first.first.demo.TestCase3 -->
+      <class name="first.first.demo.TestCase4">
+        <test-method is-config="true" signature="testSetup()[pri:0, instance:first.first.demo.TestCase4@7b227d8d]" started-at="2020-12-06T04:26:10 GMT-06:00" name="testSetup" finished-at="2020-12-06T04:26:16 GMT-06:00" duration-ms="5320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSetup -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:first.first.demo.TestCase4@7b227d8d]" started-at="2020-12-06T04:26:16 GMT-06:00" name="openBrowser" finished-at="2020-12-06T04:26:18 GMT-06:00" duration-ms="2074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="shoppingCartItemsValidation()[pri:0, instance:first.first.demo.TestCase4@7b227d8d]" started-at="2020-12-06T04:26:18 GMT-06:00" name="shoppingCartItemsValidation" description="This method validates the shopping cart items - Test case 4: " finished-at="2020-12-06T04:26:24 GMT-06:00" duration-ms="5783" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shoppingCartItemsValidation -->
+        <test-method is-config="true" signature="validateCartItems()[pri:0, instance:first.first.demo.TestCase4@7b227d8d]" started-at="2020-12-06T04:26:24 GMT-06:00" name="validateCartItems" finished-at="2020-12-06T04:26:29 GMT-06:00" duration-ms="5659" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCartItems -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:first.first.demo.TestCase4@7b227d8d]" started-at="2020-12-06T04:26:29 GMT-06:00" name="afterClass" finished-at="2020-12-06T04:26:30 GMT-06:00" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- first.first.demo.TestCase4 -->
+    </test> <!-- JupiterDemoTestCases -->
+  </suite> <!-- Suite -->
+</testng-results>
